@@ -1,7 +1,6 @@
 import subprocess
 import os
 
-
 devices = subprocess.check_output(['netsh','wlan','show','network'])
   
 
